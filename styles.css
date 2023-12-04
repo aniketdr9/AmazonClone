@@ -8,17 +8,8 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
-}
-
-.nav-logo {
-    height: 50px;
-    width: 100px;
-}
-.logo {
-    background-image: url("amazon_logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .border {
@@ -28,3 +19,36 @@
 .border:hover {
     border: 2px solid white;
 }
+
+/* Logo Box */
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* Address Box */
+.add-first {
+    color: #cccccc;
+    font-size: .75rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Search Box */
